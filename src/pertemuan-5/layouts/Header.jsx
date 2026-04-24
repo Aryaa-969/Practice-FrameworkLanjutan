@@ -1,8 +1,11 @@
+import { useState } from "react";
 import { FaBell, FaSearch } from "react-icons/fa";
 import { FcAreaChart } from "react-icons/fc";
 import { SlSettings } from "react-icons/sl";
 
 export default function Header() {
+    const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+
     return (
         <div id="header-container" className="flex justify-between items-center p-4">
             {/* Search Bar */}
@@ -26,8 +29,24 @@ export default function Header() {
                 <div id="chart-icon" className="p-3 bg-blue-100 rounded-2xl cursor-pointer">
                     <FcAreaChart />
                 </div>
-                <div id="settings-icon" className="p-3 bg-red-100 rounded-2xl text-red-500 cursor-pointer">
-                    <SlSettings />
+
+                {/* Settings Icon & Dropdown */}
+                <div className="relative">
+                    <div
+                        id="settings-icon"
+                        className="p-3 bg-red-100 rounded-2xl text-red-500 cursor-pointer"
+                        onClick={() => setIsSettingsOpen(!isSettingsOpen)}
+                    >
+                        <SlSettings />
+                    </div>
+
+                    {/* Dropdown Menu */}
+                    {isSettingsOpen && (
+                        <div className="absolute right-0 mt-2 w-32 bg-white rounded-md shadow-lg border border-gray-100 z-50 overflow-hidden">
+                            <div className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer">Account</div>
+                            <div className="px-4 py-2 text-sm text-red-600 hover:bg-red-50 cursor-pointer">Logout</div>
+                        </div>
+                    )}
                 </div>
 
 

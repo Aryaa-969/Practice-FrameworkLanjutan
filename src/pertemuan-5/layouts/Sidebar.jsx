@@ -2,6 +2,8 @@ import { MdDashboard } from "react-icons/md";
 import { RiCustomerServiceFill } from "react-icons/ri";
 import { RiListUnordered } from "react-icons/ri";
 import { FaPlus } from "react-icons/fa";
+import { FaPen } from "react-icons/fa";
+import { BsGraphUpArrow } from "react-icons/bs";
 
 export default function Sidebar() {
     return (
@@ -31,6 +33,18 @@ export default function Sidebar() {
                         <div id="menu-3" className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:font-extrabold">
                             <RiCustomerServiceFill className="mr-4 text-xl" />
                             <span>Customers</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="menu-3" className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:font-extrabold">
+                            <BsGraphUpArrow className="mr-4 text-xl" />
+                            <span>Analytic</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="menu-3" className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:font-extrabold">
+                            <FaPen className="mr-4 text-xl" />
+                            <span>Riviews</span>
                         </div>
                     </li>
                 </ul>
