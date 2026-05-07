@@ -1,0 +1,212 @@
+[
+    {
+        "customerId": "CUST-001",
+        "customerName": "Budi Santoso",
+        "email": "budi.s@gmail.com",
+        "phone": "081234567801",
+        "loyalty": "Gold"
+    },
+    {
+        "customerId": "CUST-002",
+        "customerName": "Siti Aminah",
+        "email": "siti.a@gmail.com",
+        "phone": "081234567802",
+        "loyalty": "Silver"
+    },
+    {
+        "customerId": "CUST-003",
+        "customerName": "Andi Wijaya",
+        "email": "andi.w@gmail.com",
+        "phone": "081234567803",
+        "loyalty": "Bronze"
+    },
+    {
+        "customerId": "CUST-004",
+        "customerName": "Rina Melati",
+        "email": "rina.m@gmail.com",
+        "phone": "081234567804",
+        "loyalty": "Gold"
+    },
+    {
+        "customerId": "CUST-005",
+        "customerName": "Joko Anwar",
+        "email": "joko.a@gmail.com",
+        "phone": "081234567805",
+        "loyalty": "Silver"
+    },
+    {
+        "customerId": "CUST-006",
+        "customerName": "Maya Indah",
+        "email": "maya.i@gmail.com",
+        "phone": "081234567806",
+        "loyalty": "Bronze"
+    },
+    {
+        "customerId": "CUST-007",
+        "customerName": "Hendra Kurniawan",
+        "email": "hendra.k@gmail.com",
+        "phone": "081234567807",
+        "loyalty": "Gold"
+    },
+    {
+        "customerId": "CUST-008",
+        "customerName": "Lestari Putri",
+        "email": "lestari.p@gmail.com",
+        "phone": "081234567808",
+        "loyalty": "Silver"
+    },
+    {
+        "customerId": "CUST-009",
+        "customerName": "Agus Setiawan",
+        "email": "agus.s@gmail.com",
+        "phone": "081234567809",
+        "loyalty": "Bronze"
+    },
+    {
+        "customerId": "CUST-010",
+        "customerName": "Dewi Sartika",
+        "email": "dewi.s@gmail.com",
+        "phone": "081234567810",
+        "loyalty": "Gold"
+    },
+    {
+        "customerId": "CUST-011",
+        "customerName": "Rizky Fauzi",
+        "email": "rizky.f@gmail.com",
+        "phone": "081234567811",
+        "loyalty": "Silver"
+    },
+    {
+        "customerId": "CUST-012",
+        "customerName": "Anita Wijaya",
+        "email": "anita.w@gmail.com",
+        "phone": "081234567812",
+        "loyalty": "Bronze"
+    },
+    {
+        "customerId": "CUST-013",
+        "customerName": "Bambang Pamungkas",
+        "email": "bambang.p@gmail.com",
+        "phone": "081234567813",
+        "loyalty": "Gold"
+    },
+    {
+        "customerId": "CUST-014",
+        "customerName": "Ratna Sari",
+        "email": "ratna.s@gmail.com",
+        "phone": "081234567814",
+        "loyalty": "Silver"
+    },
+    {
+        "customerId": "CUST-015",
+        "customerName": "Fajar Pratama",
+        "email": "fajar.p@gmail.com",
+        "phone": "081234567815",
+        "loyalty": "Bronze"
+    },
+    {
+        "customerId": "CUST-016",
+        "customerName": "Nia Ramadhani",
+        "email": "nia.r@gmail.com",
+        "phone": "081234567816",
+        "loyalty": "Gold"
+    },
+    {
+        "customerId": "CUST-017",
+        "customerName": "Yusuf Mansur",
+        "email": "yusuf.m@gmail.com",
+        "phone": "081234567817",
+        "loyalty": "Silver"
+    },
+    {
+        "customerId": "CUST-018",
+        "customerName": "Gita Gutawa",
+        "email": "gita.g@gmail.com",
+        "phone": "081234567818",
+        "loyalty": "Bronze"
+    },
+    {
+        "customerId": "CUST-019",
+        "customerName": "Indra Sjafri",
+        "email": "indra.s@gmail.com",
+        "phone": "081234567819",
+        "loyalty": "Gold"
+    },
+    {
+        "customerId": "CUST-020",
+        "customerName": "Dian Sastrowardoyo",
+        "email": "dian.s@gmail.com",
+        "phone": "081234567820",
+        "loyalty": "Silver"
+    },
+    {
+        "customerId": "CUST-021",
+        "customerName": "Taufik Hidayat",
+        "email": "taufik.h@gmail.com",
+        "phone": "081234567821",
+        "loyalty": "Bronze"
+    },
+    {
+        "customerId": "CUST-022",
+        "customerName": "Susi Susanti",
+        "email": "susi.s@gmail.com",
+        "phone": "081234567822",
+        "loyalty": "Gold"
+    },
+    {
+        "customerId": "CUST-023",
+        "customerName": "Gading Marten",
+        "email": "gading.m@gmail.com",
+        "phone": "081234567823",
+        "loyalty": "Silver"
+    },
+    {
+        "customerId": "CUST-024",
+        "customerName": "Luna Maya",
+        "email": "luna.m@gmail.com",
+        "phone": "081234567824",
+        "loyalty": "Bronze"
+    },
+    {
+        "customerId": "CUST-025",
+        "customerName": "Raffi Ahmad",
+        "email": "raffi.a@gmail.com",
+        "phone": "081234567825",
+        "loyalty": "Gold"
+    },
+    {
+        "customerId": "CUST-026",
+        "customerName": "Nagita Slavina",
+        "email": "nagita.s@gmail.com",
+        "phone": "081234567826",
+        "loyalty": "Silver"
+    },
+    {
+        "customerId": "CUST-027",
+        "customerName": "Sule Prikitiw",
+        "email": "sule.p@gmail.com",
+        "phone": "081234567827",
+        "loyalty": "Bronze"
+    },
+    {
+        "customerId": "CUST-028",
+        "customerName": "Andre Taulany",
+        "email": "andre.t@gmail.com",
+        "phone": "081234567828",
+        "loyalty": "Gold"
+    },
+    {
+        "customerId": "CUST-029",
+        "customerName": "Vincent Rompies",
+        "email": "vincent.r@gmail.com",
+        "phone": "081234567829",
+        "loyalty": "Silver"
+    },
+    {
+        "customerId": "CUST-030",
+        "customerName": "Desta Mahendra",
+        "email": "desta.m@gmail.com",
+        "phone": "081234567830",
+        "loyalty": "Bronze"
+    }
+]
