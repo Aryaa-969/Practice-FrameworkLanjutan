@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "title": "iPhone 15 Pro",
+    "code": "PRD-001",
+    "category": "Electronics",
+    "brand": "Apple",
+    "price": 14999000,
+    "stock": 25
+  },
+  {
+    "id": 2,
+    "title": "Galaxy S24 Ultra",
+    "code": "PRD-002",
+    "category": "Electronics",
+    "brand": "Samsung",
+    "price": 18999000,
+    "stock": 18
+  },
+  {
+    "id": 3,
+    "title": "MacBook Air M3",
+    "code": "PRD-003",
+    "category": "Electronics",
+    "brand": "Apple",
+    "price": 17500000,
+    "stock": 12
+  },
+  {
+    "id": 4,
+    "title": "Air Jordan 1 Retro",
+    "code": "PRD-004",
+    "category": "Shoes",
+    "brand": "Nike",
+    "price": 2500000,
+    "stock": 40
+  },
+  {
+    "id": 5,
+    "title": "Ultraboost Light",
+    "code": "PRD-005",
+    "category": "Shoes",
+    "brand": "Adidas",
+    "price": 2200000,
+    "stock": 35
+  },
+  {
+    "id": 6,
+    "title": "Sony WH-1000XM5",
+    "code": "PRD-006",
+    "category": "Accessories",
+    "brand": "Sony",
+    "price": 4500000,
+    "stock": 15
+  },
+  {
+    "id": 7,
+    "title": "Logitech MX Master 3S",
+    "code": "PRD-007",
+    "category": "Accessories",
+    "brand": "Logitech",
+    "price": 1399000,
+    "stock": 50
+  },
+  {
+    "id": 8,
+    "title": "Mechanical Keyboard G915",
+    "code": "PRD-008",
+    "category": "Accessories",
+    "brand": "Logitech",
+    "price": 2899000,
+    "stock": 20
+  },
+  {
+    "id": 9,
+    "title": "Oversized T-Shirt Black",
+    "code": "PRD-009",
+    "category": "Clothing",
+    "brand": "Uniqlo",
+    "price": 199000,
+    "stock": 100
+  },
+  {
+    "id": 10,
+    "title": "Slim Fit Chino Pants",
+    "code": "PRD-010",
+    "category": "Clothing",
+    "brand": "Uniqlo",
+    "price": 499000,
+    "stock": 85
+  },
+  {
+    "id": 11,
+    "title": "PlayStation 5 Slim",
+    "code": "PRD-011",
+    "category": "Electronics",
+    "brand": "Sony",
+    "price": 8500000,
+    "stock": 10
+  },
+  {
+    "id": 12,
+    "title": "Nintendo Switch OLED",
+    "code": "PRD-012",
+    "category": "Electronics",
+    "brand": "Nintendo",
+    "price": 4200000,
+    "stock": 22
+  },
+  {
+    "id": 13,
+    "title": "Kindle Paperwhite 5",
+    "code": "PRD-013",
+    "category": "Electronics",
+    "brand": "Amazon",
+    "price": 2100000,
+    "stock": 14
+  },
+  {
+    "id": 14,
+    "title": "AirPods Pro 2",
+    "code": "PRD-014",
+    "category": "Accessories",
+    "brand": "Apple",
+    "price": 3599000,
+    "stock": 30
+  },
+  {
+    "id": 15,
+    "title": "Galaxy Watch 6",
+    "code": "PRD-015",
+    "category": "Electronics",
+    "brand": "Samsung",
+    "price": 3999000,
+    "stock": 17
+  },
+  {
+    "id": 16,
+    "title": "Ergonomic Office Chair",
+    "code": "PRD-016",
+    "category": "Furniture",
+    "brand": "Informa",
+    "price": 1750000,
+    "stock": 8
+  },
+  {
+    "id": 17,
+    "title": "Meja Belajar Minimalis",
+    "code": "PRD-017",
+    "category": "Furniture",
+    "brand": "IKEA",
+    "price": 1200000,
+    "stock": 12
+  },
+  {
+    "id": 18,
+    "title": "Air Purifier 4 Pro",
+    "code": "PRD-018",
+    "category": "Appliances",
+    "brand": "Xiaomi",
+    "price": 2599000,
+    "stock": 19
+  },
+  {
+    "id": 19,
+    "title": "Robot Vacuum Mop 2",
+    "code": "PRD-019",
+    "category": "Appliances",
+    "brand": "Xiaomi",
+    "price": 3199000,
+    "stock": 11
+  },
+  {
+    "id": 20,
+    "title": "Coffee Maker Espresso",
+    "code": "PRD-020",
+    "category": "Appliances",
+    "brand": "DeLonghi",
+    "price": 4800000,
+    "stock": 7
+  },
+  {
+    "id": 21,
+    "title": "Hydro Flask 32 oz",
+    "code": "PRD-021",
+    "category": "Kitchenware",
+    "brand": "Hydro Flask",
+    "price": 650000,
+    "stock": 60
+  },
+  {
+    "id": 22,
+    "title": "Denim Jacket Classic",
+    "code": "PRD-022",
+    "category": "Clothing",
+    "brand": "Levi's",
+    "price": 1199000,
+    "stock": 25
+  },
+  {
+    "id": 23,
+    "title": "501 Original Jeans",
+    "code": "PRD-023",
+    "category": "Clothing",
+    "brand": "Levi's",
+    "price": 1499000,
+    "stock": 30
+  },
+  {
+    "id": 24,
+    "title": "Duffle Bag 40L",
+    "code": "PRD-024",
+    "category": "Bags",
+    "brand": "Eiger",
+    "price": 750000,
+    "stock": 45
+  },
+  {
+    "id": 25,
+    "title": "Backpack Laptop 15\"",
+    "code": "PRD-025",
+    "category": "Bags",
+    "brand": "Exsport",
+    "price": 450000,
+    "stock": 55
+  },
+  {
+    "id": 26,
+    "title": "Instax Mini 12",
+    "code": "PRD-026",
+    "category": "Electronics",
+    "brand": "Fujifilm",
+    "price": 1150000,
+    "stock": 20
+  },
+  {
+    "id": 27,
+    "title": "Mirrorless Alpha 7 IV",
+    "code": "PRD-027",
+    "category": "Electronics",
+    "brand": "Sony",
+    "price": 32999000,
+    "stock": 5
+  },
+  {
+    "id": 28,
+    "title": "Powerbank 20000mAh",
+    "code": "PRD-028",
+    "category": "Accessories",
+    "brand": "Anker",
+    "price": 499000,
+    "stock": 120
+  },
+  {
+    "id": 29,
+    "title": "SoundLink Flex Bluetooth",
+    "code": "PRD-029",
+    "category": "Electronics",
+    "brand": "Bose",
+    "price": 2699000,
+    "stock": 14
+  },
+  {
+    "id": 30,
+    "title": "Smart LED Bulb RGB",
+    "code": "PRD-030",
+    "category": "Appliances",
+    "brand": "Bardi",
+    "price": 149000,
+    "stock": 200
+  }
+]

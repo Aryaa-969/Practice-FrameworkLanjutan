@@ -40,6 +40,11 @@ export default function Sidebar() {
                             <RiCustomerServiceFill className="mr-4 text-xl" /> Customers
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/products" className={menuClass}>
+                            <RiListUnordered className="mr-4 text-xl" /> Products
+                        </NavLink>
+                    </li>
 
                     {/* Error Menu Section */}
                     <li>
