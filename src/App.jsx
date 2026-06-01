@@ -14,6 +14,7 @@ const ErrorPage = React.lazy(() => import("./components/ErrorPage"))
 const MainLayout = React.lazy(() => import("./layouts/MainLayout"))
 const AuthLayout = React.lazy(() => import("./layouts/AuthLayouts"))
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
+const Components = React.lazy(() => import("./pages/Components"))
 
 
 export default function App() {
@@ -25,20 +26,21 @@ export default function App() {
                     <Route path="/orders" element={<Orders />} />
                     <Route path="/customers" element={<Customers />} />
                     <Route path="/products" element={<Products />} />
+                    <Route path="/components" element={<Components />} />
                     <Route path="*" element={<NotFound />} />
                     <Route path="/error/400" element={<ErrorPage errorCode="400" description="Bad Request. Permintaan tidak dapat diproses." image="/img/400.png" />} />
                     <Route path="/error/401" element={<ErrorPage errorCode="401" description="Unauthorized. Anda tidak memiliki akses ke sini." image="/img/401.png" />} />
                     <Route path="/error/403" element={<ErrorPage errorCode="403" description="Forbidden. Akses ditolak secara permanen." image="/img/403.png" />} />
                     <Route path="*" element={<ErrorPage errorCode="404" description="Halaman tidak ditemukan." image="/img/error-404.svg" />} />
-                    <Route path="/products/:id" element={<ProductDetail />} /> 
+                    <Route path="/products/:id" element={<ProductDetail />} />
                 </Route>
 
-                <Route element={<AuthLayout/>}>
+                <Route element={<AuthLayout />}>
                     <Route path="/login" element={<Login />} />
-                    <Route path="/register" element={<Register/>} />
-                    <Route path="/forgot" element={<Forgot/>} />
+                    <Route path="/register" element={<Register />} />
+                    <Route path="/forgot" element={<Forgot />} />
                 </Route>
             </Routes>
-        </Suspense>           
+        </Suspense>
     );
 }

@@ -45,6 +45,11 @@ export default function Sidebar() {
                             <RiListUnordered className="mr-4 text-xl" /> Products
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/components" className={menuClass}>
+                            <RiListUnordered className="mr-4 text-xl" /> Components
+                        </NavLink>
+                    </li>
 
                     {/* Error Menu Section */}
                     <li>
