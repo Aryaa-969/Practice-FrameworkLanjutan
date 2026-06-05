@@ -50,7 +50,7 @@ export default function Header() {
                 {/* Profile Section */}
                 <div id="profile-container" className="flex items-center space-x-4 border-l pl-4 border-gray-300">
                     <span id="profile-text">
-                        Hello, <b>Arya Ibrahim</b>
+                        Yahoooo, <b>Arya Ibrahim</b>
                     </span>
                     <img
                         id="profile-avatar"
