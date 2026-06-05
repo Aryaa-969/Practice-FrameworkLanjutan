@@ -26,9 +26,6 @@ export default function Header() {
                     <FaBell />
                     <span id="notification-badge" className="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 bg-blue-200 rounded-full px-2 py-1 text-xs">50</span>
                 </div>
-                <div id="chart-icon" className="p-3 bg-blue-100 rounded-2xl cursor-pointer">
-                    <FcAreaChart />
-                </div>
 
                 {/* Settings Icon & Dropdown */}
                 <div className="relative">
