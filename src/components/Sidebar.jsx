@@ -50,6 +50,11 @@ export default function Sidebar() {
                             <RiListUnordered className="mr-4 text-xl" /> Components
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/fitur-xyz" className={menuClass}>
+                            <RiListUnordered className="mr-4 text-xl" /> Fitur XYZ
+                        </NavLink>
+                    </li>
 
                     {/* Error Menu Section */}
                     <li>
