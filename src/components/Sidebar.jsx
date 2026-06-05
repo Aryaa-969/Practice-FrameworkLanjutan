@@ -81,7 +81,7 @@ export default function Sidebar() {
                 <div id="footer-card" className="bg-hijau px-4 py-4 rounded-3xl shadow-lg mb-8 flex items-center justify-between gap-4">
                     <div id="footer-text" className="flex-1 flex flex-col items-start">
                         <p className="text-white text-[11px] font-medium leading-tight mb-3">
-                            Please organize your menus through button below!
+                            Wohooooooooooooooooooooooooooooo
                         </p>
                         <button id="add-menu-button" className="flex justify-center items-center w-full py-2 bg-white rounded-xl shadow-sm hover:bg-gray-50 transition-colors">
                             <FaPlus className="text-gray-600 text-xs mr-2" />
