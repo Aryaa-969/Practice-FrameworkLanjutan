@@ -4,6 +4,7 @@ import { FaPlus, FaPen } from "react-icons/fa";
 import { BsGraphUpArrow } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
 import { BiSolidError } from "react-icons/bi";
+import { CiSquareMore } from "react-icons/ci";
 
 export default function Sidebar() {
 
@@ -52,7 +53,7 @@ export default function Sidebar() {
                     </li>
                     <li>
                         <NavLink to="/fitur-xyz" className={menuClass}>
-                            <RiListUnordered className="mr-4 text-xl" /> Fitur XYZ
+                            <CiSquareMore className="mr-4 text-xl" /> Fitur XYZ
                         </NavLink>
                     </li>
 
