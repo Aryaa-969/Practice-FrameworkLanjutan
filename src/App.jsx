@@ -16,6 +16,7 @@ const AuthLayout = React.lazy(() => import("./layouts/AuthLayouts"))
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
 const Components = React.lazy(() => import("./pages/Components"))
 const FiturXyz = React.lazy(() => import("./pages/FiturXyz"))
+const Notes = React.lazy(() => import("./pages/Note"))
 
 
 export default function App() {
@@ -29,6 +30,7 @@ export default function App() {
                     <Route path="/products" element={<Products />} />
                     <Route path="/components" element={<Components />} />
                     <Route path="/fitur-xyz" element={<FiturXyz />} />
+                    <Route path="/notes" element={<Notes />} />
                     <Route path="*" element={<NotFound />} />
                     <Route path="/error/400" element={<ErrorPage errorCode="400" description="Bad Request. Permintaan tidak dapat diproses." image="/img/400.png" />} />
                     <Route path="/error/401" element={<ErrorPage errorCode="401" description="Unauthorized. Anda tidak memiliki akses ke sini." image="/img/401.png" />} />

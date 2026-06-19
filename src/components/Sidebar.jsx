@@ -56,6 +56,11 @@ export default function Sidebar() {
                             <CiSquareMore className="mr-4 text-xl" /> Fitur XYZ
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/notes" className={menuClass}>
+                            <CiSquareMore className="mr-4 text-xl" /> Notes
+                        </NavLink>
+                    </li>
 
                     {/* Error Menu Section */}
                     <li>
