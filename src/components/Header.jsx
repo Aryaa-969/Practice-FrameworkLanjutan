@@ -1,10 +1,24 @@
 import { useState } from "react";
 import { FaBell, FaSearch } from "react-icons/fa";
-import { FcAreaChart } from "react-icons/fc";
 import { SlSettings } from "react-icons/sl";
+import { useAuth } from "../contexts/AuthContext";
+import { useNavigate } from "react-router-dom";
 
 export default function Header() {
     const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+    const { profile, signOut } = useAuth();
+    const navigate = useNavigate();
+
+    const handleLogout = async () => {
+        try {
+            await signOut();
+            navigate("/login");
+        } catch (err) {
+            console.error("Gagal logout:", err);
+        }
+    };
+
+    const displayName = profile?.full_name || "User";
 
     return (
         <div id="header-container" className="flex justify-between items-center p-4">
@@ -41,7 +55,12 @@ export default function Header() {
                     {isSettingsOpen && (
                         <div className="absolute right-0 mt-2 w-32 bg-white rounded-md shadow-lg border border-gray-100 z-50 overflow-hidden">
                             <div className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer">Account</div>
-                            <div className="px-4 py-2 text-sm text-red-600 hover:bg-red-50 cursor-pointer">Logout</div>
+                            <div 
+                                className="px-4 py-2 text-sm text-red-600 hover:bg-red-50 cursor-pointer font-semibold"
+                                onClick={handleLogout}
+                            >
+                                Logout
+                            </div>
                         </div>
                     )}
                 </div>
@@ -50,12 +69,15 @@ export default function Header() {
                 {/* Profile Section */}
                 <div id="profile-container" className="flex items-center space-x-4 border-l pl-4 border-gray-300">
                     <span id="profile-text">
-                        Hello bang ganteng, <b>Arya Ibrahim</b>
+                        Hello, <b>{displayName}</b>
                     </span>
                     <img
                         id="profile-avatar"
-                        src="\img\download.jpg"
-                        className="w-10 h-10 rounded-full"
+                        src="/img/download.jpg"
+                        className="w-10 h-10 rounded-full object-cover"
+                        onError={(e) => {
+                            e.target.src = "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=256&auto=format&fit=crop";
+                        }}
                     />
                 </div>
             </div>
